@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+    </style>
+
+    <style name="DoorButton">
+        <!-- Replaces the complex BackGround to a simple color -->
+        <item name="android:background">@color/door_background</item>
+
+        <!-- Text-Style -->
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+
+        <!-- Text-Color -->
+        <item name="android:textColor">@color/door_caption_color_selected</item>
+
+
+        <!-- Spacing between the Buttons -->
+        <item name="android:padding">4px</item>
+        <item name="android:paddingTop">6px</item>
+    </style>
+</resources>

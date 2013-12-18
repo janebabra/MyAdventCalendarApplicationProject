@@ -1,0 +1,10 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+        <color name="door_background">#4200</color>
+        <color name="door_caption_color_selected">#F00</color>
+        <color name="door_caption_color">#BBFF0000</color>
+
+
+</resources>
